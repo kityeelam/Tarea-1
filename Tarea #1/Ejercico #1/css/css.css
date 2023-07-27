@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Paper Flowers;
+    src: url(Paper\ Flowers.ttf);
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    font-family: Paper Flowers;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1% 0;
+    color: #7F57BD;
+}
+h2,label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.flores {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-left: 8%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.flores div img{
+    height: 250px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+} 
+.seleccion {
+    margin-left: 10%;
+    width: 100%;
+    overflow: hidden;
+}
+#color {
+    padding: 0.2% 5%;
+    margin-left: 3%;
+    border: 2pt solid black;
+}
+#color {
+    padding: 0.2% 5%;
+    margin-left: 3%;
+    border: 2pt solid black;
+    text-align: center;
+}
+#cantidad {
+    padding: 0.2% 1.2%;
+    margin-left: 7.5%;
+    border: 2pt solid black;
+    text-align: center;
+}
+button {
+    font-family: Paper Flowers;
+    font-size: 3rem;
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin: -4.2% 30% ;
+    z-index: 1;
+}
+#button {
+    float: right;
+    margin: -5% 25% ;
+}
+
+/*Factura*/
+
+#factura h2 {
+    font-family: Paper Flowers;
+    font-size: 3rem;
+    text-align: center;
+}
+#factura p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#factura button {
+    font-family: Paper Flowers;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: 2pt solid black;
+    padding: 1%;
+    margin: 2% 42% 0 0;
+}
+#factura {
+    margin: 5% 5%;
+}

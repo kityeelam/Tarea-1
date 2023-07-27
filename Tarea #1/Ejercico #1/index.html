@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/css.css">
+  <title>Compra de Flores</title>
+</head>
+<body>
+    <header>
+        <img src="css/img/Header_Mesa de trabajo 1.png" alt="encabezado">
+    </header>
+
+    <h1>Cual flor te gustaria comprar? </h1>
+
+    <div class="flores">
+        <div>
+            <img src="css/img/Flor_roja.jpg" alt="flor roja"> <br>
+            <h2> $10 </h2>
+        </div>
+        <div>
+            <img src="css/img/Flor_azul.jpg" alt="flor azul"> <br>
+            <h2> $12 </h2>
+        </div>
+        <div>
+            <img src="css/img/Flor_amarilla.jpg" alt="flor amarilla"> <br>
+            <h2> $8 </h2>
+        </div>
+    </div>
+    
+    <div class="seleccion">
+        <label for="color">Escoja el color</label>
+        <select id="color">
+          <option value="Rojo">Rojo</option>
+          <option value="Azul">Azul</option>
+          <option value="Amarillo">Amarillo</option>
+        </select>
+        <br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" value="1">
+        <br>
+    </div>
+
+    <img src="css/img/button.png" alt="" height="75px" id="button">
+      <button id="calcular" onclick="calcularPrecio()">
+        <span>Calcular Precio</span>
+      </button> <br>
+      
+
+
+    <div id="factura"></div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>

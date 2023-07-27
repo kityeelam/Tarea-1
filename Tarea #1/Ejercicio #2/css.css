@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/fondo_Mesa\ de\ trabajo\ 1.png) no-repeat;
+    background-size: cover;
+    color: white;
+    display: grid;
+    justify-content: center ;
+    padding-top: 20%;
+    text-align: center;
+}
